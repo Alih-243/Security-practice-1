@@ -1,0 +1,96 @@
+@media screen and (max-width: 576px) {
+
+    /* header section media query */
+
+    nav {
+        padding: 15px 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .head-list {
+        gap: 20px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .banner-left {
+        width: 100%;
+
+    }
+
+    .banner-left-txt {
+        padding: 15px;
+    }
+
+    .banner-right {
+        width: 100%;
+    }
+
+    .banner-right-img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner-left-title {
+        font-size: 30px;
+    }
+
+    /* badges section media query */
+
+    .badge-imgs {
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+    }
+
+    /* service section media query */
+
+    .service-cards {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .services-title {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    /* consult section media query */
+
+    .consult-container {
+        flex-direction: column;
+    }
+
+    .consult-left {
+        width: 100%;
+    }
+
+    .consult-right {
+        width: 100%;
+    }
+
+    .consult-img {
+        width: 100%;
+    }
+
+    .consult-title {
+        font-size: 30px;
+    }
+
+    /* footer media query */
+
+    .subscribe-and-others {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
